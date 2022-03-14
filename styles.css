@@ -84,11 +84,15 @@ section a {
 	text-decoration: underline;
   }
 
-article .summary {
+section .summary {
 	text-align: center;
 	max-width: 500px;
 	line-height: 1.5;
 	letter-spacing: 2px;
+  }
+
+#ukraine .summary {
+	max-width: 600px;
   }
 
 footer {
