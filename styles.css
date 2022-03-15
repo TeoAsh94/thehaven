@@ -77,6 +77,14 @@ banner {
 section {
 	grid-area: section;
 	text-align: center;
+	display: flex;
+	max-width: 500px;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+
+#ukraine section {
+	max-width: 700px;
   }
 
 section a {
@@ -86,13 +94,8 @@ section a {
 
 section .summary {
 	text-align: center;
-	max-width: 500px;
 	line-height: 1.5;
 	letter-spacing: 2px;
-  }
-
-#ukraine .summary {
-	max-width: 800px;
   }
 
 footer {
