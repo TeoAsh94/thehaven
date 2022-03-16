@@ -178,6 +178,12 @@ footer .contact {
 
 }
 
+@media only screen and (pointer:coarse) and (orientation:landscape) {
+  body {
+	margin-top: 10%;
+  }
+}
+
 /* ANIMATION */
 
 #index .logo, #index li, #index h1, #index .summary, #index .contact  {
