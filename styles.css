@@ -85,6 +85,7 @@ nav li {
 
 banner {
 	grid-area: banner;
+	display: flex;
   }
 
 #recipe h1 {
@@ -102,30 +103,6 @@ banner {
 	padding-left: 5px;
   }
 
-section {
-	grid-area: section;
-	text-align: center;
-	display: flex;
-	max-width: 500px;
-	flex-wrap: wrap;
-	justify-content: center;
-  }
-
-#recipe section {
-	display: grid;
-	grid-template-columns: 50% 50%;
-	grid-template-rows: auto;
-	grid-template-areas: "image ingredients"
-		       "recipe recipe";
-        justify-items: center;
-	text-align: center;
-	max-width: 700px;
-  }
-
-#ukraine section {
-	max-width: 700px;
-  }
-
 section a {
 	margin: 0px 10px;
 	text-decoration: underline;
@@ -138,20 +115,17 @@ section .summary {
   }
 
 section img {
-	grid-area: image;
 	max-width: 200px;
 	box-shadow: -5px 5px 5px gray;
 	align-self: center;
   }
 
 section .ingredients {
-	grid-area: ingredients;
 	text-align: left;
 	color: #3A3B3C;
   }
 
 section .recipe {
-	grid-area: recipe;
 	line-height: 2;
 	color: #3A3B3C;
   }
