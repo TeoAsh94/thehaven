@@ -85,7 +85,6 @@ nav li {
 
 banner {
 	grid-area: banner;
-	display: flex;
   }
 
 #recipe h1 {
