@@ -79,6 +79,10 @@ nav li {
 	padding-bottom: 10px;
   }
 
+#hide {
+	display: none;
+  }
+
 banner {
 	grid-area: banner;
   }
@@ -171,6 +175,19 @@ footer .contact {
 	font-weight: bold;
 	color: gray;
   }
+
+@media only screen and (max-width: 600px) {
+  #hide {
+	display: inline-block;
+	padding-left: 20px;
+	padding-bottom: 10px;
+  }
+
+  .menu:hover .dropdown {
+	display: none;
+  }
+
+}
 
 /* ANIMATION */
 
