@@ -109,7 +109,7 @@ section {
 	max-width: 500px;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
   }
 
 #ukraine section {
