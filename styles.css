@@ -103,6 +103,19 @@ banner {
 	padding-left: 5px;
   }
 
+section {
+	grid-area: section;
+	text-align: center;
+	display: flex;
+	max-width: 500px;
+	flex-wrap: wrap;
+	justify-content: center;
+  }
+
+#ukraine section {
+	max-width: 700px;
+  }
+
 section a {
 	margin: 0px 10px;
 	text-decoration: underline;
