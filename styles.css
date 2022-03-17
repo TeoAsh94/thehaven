@@ -16,6 +16,10 @@ body {
 	margin-top: 20%;
   }
 
+#tiltify body {
+	margin-top: 10%;
+}
+
 a {
 	color: gray;
 	text-decoration: none;
@@ -83,6 +87,19 @@ nav li {
 	display: none;
   }
 
+.stamp {
+	position: absolute;
+	left: 2%;
+	top: 10%;
+	height: 25px;
+	width: 25px;
+	border: 3px outset white;
+}
+
+.stamp:active {
+	border: 3px inset white;
+}
+
 banner {
 	grid-area: banner;
   }
@@ -99,8 +116,13 @@ banner {
 	display: inline-block;
 	height: 20px;
 	width: auto;
-	padding-left: 5px;
+	margin-left: 5px;
+	border: 3px outset silver;
   }
+
+#ukraine .flag:active {
+	border: 3px inset silver;
+}
 
 section {
 	grid-area: section;
@@ -142,6 +164,61 @@ section .recipe {
 	line-height: 2;
 	color: #3A3B3C;
   }
+
+section .table {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+section .legend {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.tiltify {
+	margin-top: 10px;
+	border: 3px dotted black;
+	padding: 10px;
+}
+
+.legend a {
+	display: inline-flex;
+	width: 150px;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+.table p {
+	display: inline-flex;
+	width: 100px;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+
+.ph {
+	background-color: rgb(31, 38, 102);
+	border-radius: 10px;
+	color: white;
+}
+
+.brc {
+	border: 1px solid red;
+	border-radius: 10px;
+	color: black;
+}
+
+.irc {
+	background-color: rgb(252, 186, 3);
+	border-radius: 10px;
+	color: black;
+}
 
 footer {
 	grid-area: footer;
@@ -218,6 +295,13 @@ footer .contact {
   -ms-animation: fadeIn linear 1s;
   } 
 
+#tiltify banner, #tiltify section {
+	animation: fadeIn linear 1s;
+  -webkit-animation: fadeIn linear 1s;
+  -moz-animation: fadeIn linear 1s;
+  -o-animation: fadeIn linear 1s;
+  -ms-animation: fadeIn linear 1s;
+}
 
 @keyframes fadeIn {
   0% {opacity:0;}
