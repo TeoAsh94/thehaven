@@ -253,12 +253,21 @@ footer .contact {
 	display: none;
   }
 
+  .stamp {
+	top: 2%;
+  }
+
 }
 
 @media only screen and (pointer:coarse) and (orientation:landscape) {
   body {
 	margin-top: 10%;
   }
+	
+  .stamp {
+	top: 20%;
+  }
+
 }
 
 /* ANIMATION */
