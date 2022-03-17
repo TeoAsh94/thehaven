@@ -243,10 +243,18 @@ footer .contact {
   }
 
 @media only screen and (pointer:coarse) {
+  html {
+	font-size: 22px;
+  }
+	
   #hide {
 	display: inline-block;
 	padding-left: 20px;
 	padding-bottom: 10px;
+  }
+	
+  section {
+	max-width: 80%;
   }
 
   .menu:hover .dropdown {
