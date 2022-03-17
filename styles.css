@@ -256,6 +256,10 @@ footer .contact {
   section {
 	max-width: 80%;
   }
+	
+  #ukraine section {
+	max-width: 80%;
+  }
 
   .menu:hover .dropdown {
 	display: none;
