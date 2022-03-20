@@ -83,7 +83,7 @@ nav li {
 	padding-bottom: 10px;
   }
 
-#hide {
+.hide {
 	display: none;
   }
 
@@ -247,7 +247,7 @@ footer .contact {
 	font-size: 22px;
   }
 	
-  #hide {
+  .hide {
 	display: inline-block;
 	padding-left: 20px;
 	padding-bottom: 10px;
