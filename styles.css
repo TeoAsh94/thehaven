@@ -155,6 +155,11 @@ section img {
 	align-self: center;
   }
 
+section figcaption {
+	color: black;
+	opacity: 0.8;
+}
+
 section .ingredients {
 	text-align: left;
 	color: #3A3B3C;
