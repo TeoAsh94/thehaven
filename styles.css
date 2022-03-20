@@ -16,7 +16,7 @@ body {
 	margin-top: 20%;
   }
 
-#tiltify body {
+#tiltify body, #recipe body {
 	margin-top: 10%;
 }
 
