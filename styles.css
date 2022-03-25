@@ -326,7 +326,7 @@ footer .contact {
 
 /* ANIMATION */
 
-#index .logo, #index li, #index h1, #index .summary, #index .contact  {
+#index .logo, #index li, #index h1, #index .summary, #index .contact, #index img  {
 	animation: fadeIn linear 3s;
   -webkit-animation: fadeIn linear 3s;
   -moz-animation: fadeIn linear 3s;
